@@ -1,0 +1,25 @@
+package com.nit.bank;
+
+public class Bank {
+
+	 private String bankName;
+	 private String bankCustomerName;
+	 private String bankAddress;
+	 private String bankIFSCCode;
+	 private int customerAccountNumber; 
+	 private int currentBalance;
+	 
+	 public void setDetails(String bankName, String bankCustomerName, String bankAddress, String bankIFSCCode, int customerAccountNumber, int currentBalance) {
+		 this.bankName = bankName;
+		 this.bankCustomerName = bankCustomerName;
+		 this.bankAddress = bankAddress;
+		 this.bankIFSCCode = bankIFSCCode;
+		 this.customerAccountNumber = customerAccountNumber;
+		 this.currentBalance = currentBalance;
+	 }
+	 
+	 public void withdraw(double amount) {
+		 
+	 }
+	
+}

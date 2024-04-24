@@ -1,0 +1,27 @@
+package com.nit.tenprograms;
+
+import java.util.Scanner;
+
+public class StringToBoolean {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter a boolean value(true/false): ");
+		String str = sc.next();
+		
+		stringToBoolean(str);
+		
+
+		sc.close();
+		
+	}
+	
+	static void stringToBoolean(String str) {
+		
+		Boolean bool = 
+		
+	}
+
+}

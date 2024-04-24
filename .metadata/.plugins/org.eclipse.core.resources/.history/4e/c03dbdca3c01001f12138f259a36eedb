@@ -1,0 +1,26 @@
+package com.nit.tenprograms;
+
+class Logic {
+	int a, b, c;
+
+	Logic() {
+		a = 5;
+		b = 6;
+		c = 7;
+	}
+
+	public String findProduct() {
+		return "a*b*c " + (a * b * c);
+	}
+}
+
+public class LogicClass2 {
+	public static void main(String args[]) {
+		Logic logic = new Logic();
+		String reString = logic.findProduct();
+		logic.a = 10;
+		logic.b = 20;
+		logic.c = 30;
+		System.out.println(reString);
+	}
+}

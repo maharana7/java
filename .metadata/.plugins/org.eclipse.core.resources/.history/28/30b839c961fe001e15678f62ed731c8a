@@ -1,0 +1,9 @@
+package com.nit.books;
+
+public class Books {
+
+	String title;
+	String author;
+	
+	
+}

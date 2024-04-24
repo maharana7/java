@@ -1,0 +1,29 @@
+package com.nit.tenprograms;
+
+import java.util.Scanner;
+
+public class AverageArray {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Double marks[] = new Double[6];
+		
+		for(int i = 0; i < 6; i++) {
+			marks[i] = sc.nextDouble();
+		}
+		
+		System.out.println("Average: " + calculateAverage(marks));
+		
+	}
+	
+	static double calculateAverage(Double[] arr) {
+		
+		for(int i = 0; i < 6; i++) {
+			
+		}
+		
+	}
+	
+}

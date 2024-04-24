@@ -1,0 +1,12 @@
+package com.nit.books;
+
+public class Books {
+
+	String bookName;
+	String author;
+	int noOfPages;
+	static float price = 500f;
+	
+	
+	
+}

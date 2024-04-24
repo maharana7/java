@@ -1,0 +1,54 @@
+package com.nit.datatypes;
+
+public class TestDatatype {
+
+	public static void main(String[] args) {
+		
+		byte a = 10;
+		short b = 20;
+		int c = 30;
+		long d = 40;
+		float e = 50;
+		double f = 60;
+		char g = 70;
+		
+		String h = "";
+		
+		m1(a);
+		//m1(b);
+		
+	}
+	
+	public static void m1(byte a) {
+		System.out.println("m1 executed");
+	}
+	
+	public static void m2(short a) {
+		System.out.println("m1 executed");
+	}
+	
+	public static void m3(short a) {
+		System.out.println("m1 executed");
+	}
+	
+	public static void m4(short a) {
+		System.out.println("m1 executed");
+	}
+	
+	public static void m5(short a) {
+		System.out.println("m1 executed");
+	}
+	
+	public static void m6(short a) {
+		System.out.println("m1 executed");
+	}
+	
+	public static void m7(short a) {
+		System.out.println("m1 executed");
+	}
+	
+	public static void m8(short a) {
+		System.out.println("m1 executed");
+	}
+	
+}

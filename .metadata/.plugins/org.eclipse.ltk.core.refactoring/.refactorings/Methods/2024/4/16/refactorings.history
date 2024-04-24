@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.nit.calculatorhs&apos; to &apos;Method Overloading/src&apos;&#x0D;&#x0A;- Original project: &apos;Methods&apos;&#x0D;&#x0A;- Destination element: &apos;Method Overloading/src&apos;&#x0D;&#x0A;- Original element: &apos;Methods/src/com.nit.calculatorhs&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Method Overloading/src" element1="/src&lt;com.nit.calculatorhs" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1713466044687" version="1.0"/>
+</session>

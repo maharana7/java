@@ -1,0 +1,13 @@
+package com.nit.employee;
+
+public class Employee {
+	
+	public static void main(String[] args) {
+		
+		byte b1 = 127;
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,30 @@
+package com.nit.product;
+
+public class Product {
+	
+	String name;
+	double price;
+	int quantity;
+
+	Product(String name) {
+		this.name = name;
+	}
+	
+	Product(String name, double price){
+		this.name = name;
+		this.price = price;
+	}
+	
+	Product(String name, double price, int quantity){
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+	}
+	
+	public static void main(String[] args) {
+		Product product1 = new Product("m416");
+		Product product2 = new Product("AWM", 8000);
+		Product product3 = new Product(".5mm bullet");
+	}
+	
+}

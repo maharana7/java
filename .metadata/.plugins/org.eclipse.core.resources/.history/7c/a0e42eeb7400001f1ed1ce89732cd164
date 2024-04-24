@@ -1,0 +1,13 @@
+package com.nit.tenprograms;
+
+public class ParseIntegers {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+	}
+
+}

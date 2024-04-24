@@ -1,0 +1,11 @@
+package com.nit.bank;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+}

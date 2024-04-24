@@ -1,0 +1,18 @@
+package com.nit.books;
+
+public class LibraryCatalog {
+
+	Book[] book;
+	int catalogSize;
+	int maxSize;
+	
+	LibraryCatalog(int maxSize){
+		this.maxSize = maxSize;
+		book = new Book[maxSize];
+	}
+	
+	public void addBook(Book book) {
+		if(catalogSize < maxSize)
+	}
+	
+}

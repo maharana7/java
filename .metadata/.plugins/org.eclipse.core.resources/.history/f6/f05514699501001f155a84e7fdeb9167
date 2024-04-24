@@ -1,0 +1,27 @@
+package com.nit.tenprograms;
+
+import java.util.Scanner;
+
+public class AuthenticationArray {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String[] usernames = {"username1", "username2", "username3"};
+		String[] passwords = {"password1", "password2", "password3"};
+		
+		System.out.print("Enter the username: ");
+		String username = sc.next();
+		System.out.print("Enter the password: ");
+		
+		
+	}
+	
+	private static Double celsiusToFahrenheit(Double celsius) {
+		
+		return (celsius * 9/5) + 32;
+		
+	}
+	
+}

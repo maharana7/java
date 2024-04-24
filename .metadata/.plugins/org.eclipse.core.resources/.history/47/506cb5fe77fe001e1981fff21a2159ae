@@ -1,0 +1,9 @@
+package com.nit.books;
+
+public class LibraryCatalog {
+
+	Book[] book;
+	int catalogSize;
+	
+	
+}

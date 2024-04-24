@@ -1,0 +1,14 @@
+package com.nit.taskprograms;
+
+public class Customer {
+	
+	String name;
+
+	public static void main(String[] args) {
+		
+		name = "Debashish";
+
+	}
+
+}
+

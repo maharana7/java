@@ -1,0 +1,13 @@
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		
+		char c = 'A';
+		int i = 5;
+		System.out.println(c + i);
+		System.out.println((int)c + i);
+		
+	}
+	
+}

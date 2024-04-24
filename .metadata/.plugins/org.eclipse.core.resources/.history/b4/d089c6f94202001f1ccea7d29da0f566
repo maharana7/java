@@ -1,0 +1,12 @@
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		
+		int n = 97;
+		char ch = Character.toUpperCase((char)n);
+		System.out.println(ch + " India is a democratic Country");
+		
+	}
+	
+}

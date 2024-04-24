@@ -1,0 +1,29 @@
+package com.nit.tenprograms;
+
+import java.util.Scanner;
+
+public class CurrencyConversion {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the amount in rupees: ");
+		Double inr = sc.nextDouble();
+
+		
+		
+	}
+
+	private static Boolean authenticate(String uname, String pwd, String usernames[], String passwords[]) {
+
+		for (int i = 0; i < usernames.length; i++) {
+			if (usernames[i].equals(uname) && passwords[i].equals(pwd)) {
+				return true;
+			}
+		}
+		return false;
+
+	}
+
+}

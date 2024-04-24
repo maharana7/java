@@ -1,0 +1,26 @@
+package com.nit.taskprograms;
+
+import java.util.Scanner;
+
+public class Customer {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Customer Name: ");
+		String customerName = sc.nextLine();
+		System.out.print("Product Name: ");
+		
+		System.out.print("Size: ");
+		System.out.print("Color: ");
+		System.out.print("Price: ");
+		System.out.print("Quantity: ");
+		
+		
+		LouisPhilippe product1 = new LouisPhilippe();
+
+	}
+
+}
+

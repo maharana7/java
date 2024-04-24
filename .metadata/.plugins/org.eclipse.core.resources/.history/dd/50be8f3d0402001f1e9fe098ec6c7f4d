@@ -1,0 +1,17 @@
+package com.nit.accessmodifiers2;
+
+import com.nit.accesmodifiers.*;
+
+public class Test4 extends Test{
+
+	public static void main(String[] args) {
+		
+		System.out.println(x);
+		System.out.println(a);
+		System.out.println(b);
+		
+		System.out.println(ch);
+		
+	}
+	
+}

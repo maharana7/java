@@ -1,0 +1,21 @@
+package com.nit.books;
+
+public class LibraryCatalog {
+
+	Book[] books;
+	int catalogSize;
+	
+	LibraryCatalog(int maxSize){
+		books = new Book[maxSize];
+	}
+	
+	public void addBook(Book book) {
+		if(catalogSize == books.length)System.out.println("No more books can be added.");
+		else {
+			books[catalogSize] = book;
+		}
+	}
+	
+	
+	
+}

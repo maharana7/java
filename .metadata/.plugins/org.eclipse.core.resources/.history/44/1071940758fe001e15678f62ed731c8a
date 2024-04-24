@@ -1,0 +1,52 @@
+package com.nit.employee;
+
+import java.util.Scanner;
+
+public class Employee {
+	
+	String name;
+	int employeeId;
+	String department;
+	
+	public Employee(String name) {
+		this.name = name;
+	}
+	
+	public Employee(String name, int employeeId) {
+		this.name = name;
+		this.employeeId = employeeId;
+	}
+	
+	public Employee(String name, int employeeId, String department) {
+		this.name = name;
+		this.employeeId = employeeId;
+		this.department = department;
+	}
+	
+	void displayInfo() {
+		System.out.println("\nName: " + name + "\nEmployeeId: " + employeeId);
+	}
+	
+	void displayInfo(boolean detailed) {
+		System.out.println("\nName: " + name + "\nEmployeeId: " + employeeId + "\nDepartment: " + department);
+	}
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Name: ");
+		String name = sc.nextLine();
+		System.out.println("Employee Id: ");
+		int employeeId = sc.nextInt();
+		System.out.println("Department Name: ");
+		String department = sc.nextLine();
+		
+		Employee emp1 = new Employee(name);
+		Employee emp2 = new Employee(name, employeeId);
+		Employee emp3 = new Employee(name, );
+		
+		
+	}
+	
+}

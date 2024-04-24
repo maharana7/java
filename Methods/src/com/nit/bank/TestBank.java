@@ -1,0 +1,46 @@
+package com.nit.bank;
+
+import java.util.Scanner;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Bank Name: ");
+		String bankName = sc.nextLine();
+		
+		System.out.print("Customer Name: ");
+		String customerName = sc.nextLine();
+		
+		System.out.print("Address: ");
+		String address = sc.nextLine();
+		
+		System.out.print("IFSC Code: ");
+		String IFSCCode = sc.nextLine();
+		
+		System.out.print("Account Number: ");
+		int accountNumber = sc.nextInt();
+		
+		System.out.print("Balance: ");
+		int balance = sc.nextInt();
+		
+		Bank bank = new Bank();
+		bank.setDetails(bankName, customerName, address, IFSCCode, accountNumber, balance);
+		
+		System.out.print("\nEnter 1 for balance enquiry\nEnter 2 for withdraw amount\nEnter 3 for deposit\nEnter 4 for display customer details\n");
+		char ch = sc.next().charAt(0);
+		
+		switch(ch) {
+		case '1': bank.currentBalance(); break;
+		case '2': System.out.println("\nPlease enter withdraw amount"); double wAmount = sc.nextDouble(); bank.withdraw(wAmount); break;
+		case '3': System.out.println("\nPlease enter deposit amount"); double dAmount = sc.nextDouble(); bank.deposit(dAmount); break;
+		case '4': System.out.println(bank); break;
+		}
+		
+		sc.close();
+		
+	}
+	
+}

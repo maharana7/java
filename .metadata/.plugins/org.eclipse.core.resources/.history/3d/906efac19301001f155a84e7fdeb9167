@@ -1,0 +1,10 @@
+package com.nit.tenprograms;
+
+public class AuthenticationArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

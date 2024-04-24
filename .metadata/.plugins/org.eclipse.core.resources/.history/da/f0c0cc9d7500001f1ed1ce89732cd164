@@ -1,0 +1,32 @@
+package com.nit.tenprograms;
+
+import java.util.Scanner;
+
+public class ParseIntegers {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter first number: ");
+		String str1 = sc.next();
+		
+		System.out.print("Enter second number: ");
+		String str2 = sc.next();
+		
+		converter(str1, str2);
+		
+		sc.close();
+		
+	}
+	
+	private static void converter(String str1, String str2) {
+		
+		Integer num1 = Integer.parseInt(str1);
+		Integer num2 = Integer.parseInt(str2);
+		
+		System.out.println(num1 + num2);
+		
+	}
+
+}

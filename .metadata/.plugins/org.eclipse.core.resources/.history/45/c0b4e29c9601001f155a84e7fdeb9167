@@ -1,0 +1,31 @@
+package com.nit.tenprograms;
+
+import java.util.Scanner;
+
+public class AuthenticationArray {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String[] usernames = {"username1", "username2", "username3"};
+		String[] passwords = {"password1", "password2", "password3"};
+		
+		Boolean bools[] = new Boolean[usernames.length];
+		
+		System.out.print("Enter the username: ");
+		String uname = sc.next();
+		System.out.print("Enter the password: ");
+		String pwd = sc.next();
+		
+		Boolean res = authenticate(usernames[i], passwords[i], uname, pwd);
+	
+	}
+	
+	private static Boolean authenticate(String username, String password, String uname, String pwd) {
+		
+		if(username )
+		
+	}
+	
+}

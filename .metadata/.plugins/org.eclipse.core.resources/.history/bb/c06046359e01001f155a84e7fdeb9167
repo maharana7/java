@@ -1,0 +1,32 @@
+package com.nit.tenprograms;
+
+import java.util.Scanner;
+
+public class CurrencyConversion {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		Double[] values = {0.90, 0.85, 85.4}; // EUR, GBP, INR
+		Double[] result = new Double[values.length];
+
+		System.out.print("Enter the amount in USD: ");
+		Double usd = sc.nextDouble();
+		
+		for(int i = 0; i < values.length; i++) {
+			result[i] = values[i] * usd;			
+		}
+		
+		System.out.print("USD in [EUR, GBP, INR]: [");
+		for(Double d:result) {
+			System.out.print(d + ", ");
+		}
+		System.out.printf("\b]");
+	
+		sc.close();
+		
+	}
+
+
+}

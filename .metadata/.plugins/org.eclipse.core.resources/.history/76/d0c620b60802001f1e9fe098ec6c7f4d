@@ -1,0 +1,12 @@
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		
+		char ch = '*';
+		   boolean b = Character.isLetter(ch);
+		   System.out.println(b);
+		
+	}
+	
+}

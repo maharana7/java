@@ -1,0 +1,26 @@
+package com.nit.calculatorhs;
+
+public class MathOperations {
+
+	int add(int num1, int num2) {
+		return num1+num2;
+	}
+	
+	double add(double num1, double num2) {
+		return num1+num2;
+	}
+	
+	int multiply(int num1, int num2) {
+		return num1*num2;
+	}
+	
+	double multiply(double num1, double num2) {
+		return num1*num2;
+	}
+	
+	public static void main(String[] args) {
+		MathOperations mp = new MathOperations();
+		
+	}
+	
+}

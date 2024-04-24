@@ -1,0 +1,30 @@
+package com.nit.tenprograms;
+
+import java.util.Scanner;
+
+public class NumberComparison {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter first number: ");
+		int num1 = sc.nextInt();
+		
+		System.out.println("Enter second number: ");
+		int num2 = sc.nextInt();
+		
+		Integer iNum1 = Integer.valueOf(num1);
+		Integer iNum2 = Integer.valueOf(num2);
+		
+		System.out.println("Greater Number: " + Integer.max(iNum1,iNum2));
+		
+		sc.close();
+		
+	}
+	
+}
+
+class TestNumberComparison{
+	
+}

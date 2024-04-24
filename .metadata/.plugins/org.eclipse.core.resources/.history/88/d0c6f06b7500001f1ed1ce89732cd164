@@ -1,0 +1,21 @@
+package com.nit.tenprograms;
+
+import java.util.Scanner;
+
+public class ParseIntegers {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter first number: ");
+		String num1 = sc.next();
+		
+		System.out.print("Enter second number: ");
+		String num2 = sc.next();
+		
+		
+		
+	}
+
+}

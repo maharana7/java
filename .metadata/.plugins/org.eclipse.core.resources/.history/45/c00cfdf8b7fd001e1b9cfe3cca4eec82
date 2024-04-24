@@ -1,0 +1,17 @@
+package com.nit.shapecalculator;
+
+public class ShapeCalculator {
+
+	int calculateArea(int sideLength) {
+		return sideLength*sideLength;
+	}
+	
+	int calculateArea(int length, int width) {
+		return length*width;
+	}
+	
+	int calculateArea(double radius) {
+		return 3.14*radius*radius;
+	}
+	
+}

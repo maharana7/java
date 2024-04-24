@@ -1,0 +1,12 @@
+public class T 
+{
+  int pCode= 99;
+}
+public class LogicClass2 
+{
+   public static void main(String args[]) 
+   {
+      T t1 = new T();
+      System.out.println(t1.pCode);
+   }
+}

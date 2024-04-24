@@ -1,0 +1,18 @@
+package com.nit.books;
+
+public class Books {
+
+	private String title;
+	private String author;
+	private int year;
+	
+	public Books(String title, String author, int year) {
+		super();
+		this.title = title;
+		this.author = author;
+		this.year = year;
+	}
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+package com.nit.bank;
+
+public class Bank {
+
+	 private String bankName;
+	 private String bankCustomerName;
+	 private String bankAddress;
+	 private String bankIFSCCode;
+	 private int customerAccountNumber; 
+	 private int currentBalance;
+	 
+	 public void setDetails() {
+		 
+	 }
+	
+}

@@ -1,0 +1,11 @@
+package com.nit.busfare;
+
+public class InputValue {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

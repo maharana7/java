@@ -1,0 +1,18 @@
+package com.nit.bank;
+
+public class BankAccount {
+
+	String accountNumber;
+	double balance;
+	
+	public BankAccount(String accountNumber) {
+		super();
+		this.accountNumber = accountNumber;
+		this.balance = 0.0;
+	}
+	
+	
+	
+	
+	
+}

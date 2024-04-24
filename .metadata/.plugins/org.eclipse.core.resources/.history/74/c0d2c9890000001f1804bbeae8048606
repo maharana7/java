@@ -1,0 +1,21 @@
+class Demo{
+	public String toString() {
+		return "I am Batman!";
+	}
+	public static void main(String[] args) {
+		System.out.println(args[0] + " Maharana");
+	}
+	
+}
+
+class Test {
+
+	public static void main(String[] args) {
+		Demo d = new Demo();
+		System.out.println(d);
+		String name[] = {"Dev","Ashish"};
+		Demo.main(name);
+		
+	}
+	
+}

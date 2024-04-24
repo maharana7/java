@@ -1,0 +1,29 @@
+package com.nit.calculatorhs;
+
+public class MathOperations {
+
+	int add(int num1, int num2) {
+		return num1+num2;
+	}
+	
+	double add(double num1, double num2) {
+		return num1+num2;
+	}
+	
+	int multiply(int num1, int num2) {
+		return num1*num2;
+	}
+	
+	double multiply(double num1, double num2) {
+		return num1*num2;
+	}
+	
+	public static void main(String[] args) {
+		MathOperations mp = new MathOperations();
+		System.out.println("int sum = " + mp.add(7, 8));
+		System.out.println("double sum = " + mp.add(13.3, 76.5));
+		System.out.println("int product = " + mp.add(9, 1));
+		System.out.println("double product = " + mp.add(177, 0));
+	}
+	
+}

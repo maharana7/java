@@ -1,0 +1,18 @@
+package com.nit.taskprograms;
+
+class LouisPhilippe{
+	
+	String productName;
+	String productSize;
+	String productColor;
+	int quantity;
+	double price;
+	double totalPrice;
+	
+	LouisPhilippe(){
+		
+	}
+	
+	
+}
+

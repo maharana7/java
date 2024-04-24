@@ -1,0 +1,11 @@
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		
+		int i = Integer.valueOf("10");
+		System.out.println(i);
+		
+	}
+	
+}

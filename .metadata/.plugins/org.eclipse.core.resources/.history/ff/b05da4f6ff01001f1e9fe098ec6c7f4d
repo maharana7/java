@@ -1,0 +1,6 @@
+public class Test {
+
+	public static int x = 10;
+	private static double a = 20.7;
+	protected 
+}

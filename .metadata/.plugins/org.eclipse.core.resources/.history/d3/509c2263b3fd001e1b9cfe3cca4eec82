@@ -1,0 +1,29 @@
+package com.nit.calculatorhs;
+
+public class MathOperations {
+
+	int add(int num1, int num2) {
+		
+	}
+	
+	double add(double num1, double num2) {
+		
+	}
+	
+	int multiply(int num1, int num2) {
+		
+	}
+	
+	double multiply(double num1, double num2) {
+		
+	}
+	
+	int add(int num1, int num2) {
+		
+	}
+	
+	double add(double num1, double num2) {
+		
+	}
+	
+}

@@ -1,0 +1,51 @@
+package com.nit.taskprograms;
+
+class LouisPhilippe {
+
+	String customerName;
+	String productName;
+	String productSize;
+	String productColor;
+	int quantity;
+	double price;
+	double totalPrice;
+
+	LouisPhilippe(String customerName, String productName, String productSize, String productColor, double price,
+			int quantity) {
+		this.customerName = customerName;
+		this.productName = productName;
+		this.productSize = productSize;
+		this.productColor = productColor;
+		this.price = price;
+		this.quantity = quantity;
+	}
+
+	void calculateTotalPrice() {
+		double actualPrice = quantity * price;
+		System.out.println("Actual Amount: " + actualPrice);
+		if (actualPrice <= 10000) {
+			System.out.println("Discount: " + (actualPrice * 0.05));
+			System.out.println("Total Amount: " + (actualPrice - (actualPrice * 0.05)));
+		} else if (actualPrice <= 50000) {
+			System.out.println("Discount: " + (actualPrice * 0.15));
+			System.out.println("Total Amount: " + (actualPrice - (actualPrice * 0.15)));
+		} else if (actualPrice <= 80000) {
+			System.out.println("Discount: " + (actualPrice * 0.25));
+			System.out.println("Total Amount: " + (actualPrice - (actualPrice * 0.25)));
+		} else {
+			System.out.println("Discount: " + (actualPrice * 0.35));
+			System.out.println("Total Amount: " + (actualPrice - (actualPrice * 0.35)));
+		}
+	}
+
+	void printDetails() {
+		System.out.println("\nCustomer Name: " + customerName);
+		System.out.println("Product Name: " + productName);
+		System.out.println("Size: " + productSize);
+		System.out.println("Color: " + productColor);
+		System.out.println("Price: " + price);
+		System.out.println("Quantity: " + quantity);
+		calculateTotalPrice();
+	}
+
+}

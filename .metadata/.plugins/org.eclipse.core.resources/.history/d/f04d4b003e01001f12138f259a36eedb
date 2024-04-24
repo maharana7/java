@@ -1,0 +1,22 @@
+package com.nit.tenprograms;
+
+class Check {
+	int a;
+	int b;
+
+	Check(int x, int y) {
+		a = x;
+		b = y;
+	}
+
+	public boolean checkEquality() {
+		return (a == b);
+	}
+}
+
+public class LogicClass {
+	public static void main(String args[]) {
+		Check check = new Check(10, 20);
+		System.out.println(check.checkEquality());
+	}
+}

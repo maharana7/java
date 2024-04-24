@@ -1,0 +1,17 @@
+package com.nit.tenprograms;
+
+public class AverageArray {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	static double calculateAverage(Double[] arr) {
+		
+		
+		
+	}
+	
+}
